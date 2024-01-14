@@ -6,10 +6,13 @@ export default {
     colors: {
       "primary-dark": "#131316",
       "primary-white": "#f1faee",
+
+      highlights: "#00DFA2",
     },
     fontFamily: {
       Kanit: ["Kanit"],
       Roboto: ["Roboto"],
+      Poppins: ["Poppins"],
     },
 
     extend: {},
