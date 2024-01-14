@@ -10,26 +10,26 @@ function Footer({ isdarkmode }) {
     <div
       className={` ${
         isdarkmode ? "dark" : "light"
-      } text-center flex flex-col items-center md:gap-12 gap-8 h-[70vh] font-Poppins in-view overflow-hidden`}
+      } text-center flex flex-col items-center md:gap-12 gap-8 md:h-[70vh] h-[50vh]  font-Poppins in-view overflow-hidden`}
     >
-      <h1 className="text-center md:text-[3rem] font-bold md:tracking-[0.2rem] pt-6 pb-6">
+      <h1 className="text-center md:text-[3rem] text-[1.8rem] font-bold md:tracking-[0.2rem] pt-6 pb-6">
         Contact Me:
       </h1>
       <div className=" md:gap-16 gap-12 flex">
         <a href="">
           {" "}
-          <FaFacebook className="w-16 h-16 opacity-[0.8] hover:opacity-[1]" />
+          <FaFacebook className="md:w-16 md:h-16 w-12 h-12 opacity-[0.8] hover:opacity-[1]" />
         </a>
         <a href="">
           {" "}
-          <FaInstagram className="w-16 h-16 opacity-[0.8] hover:opacity-[1]" />
+          <FaInstagram className="md:w-16 md:h-16 w-12 h-12 opacity-[0.8] hover:opacity-[1]" />
         </a>
         <a href="">
           {" "}
-          <FaGithub className="w-16 h-16 opacity-[0.8] hover:opacity-[1]" />
+          <FaGithub className="md:w-16 md:h-16 w-12 h-12 opacity-[0.8] hover:opacity-[1]" />
         </a>
       </div>
-      <h4 className=" tracking-wider font-Poppins font-medium text-[1.75rem]">
+      <h4 className=" md:tracking-wider font-Poppins font-medium md:text-[1.75rem]">
         pandeysiddhant0922@gmail.com
       </h4>
 

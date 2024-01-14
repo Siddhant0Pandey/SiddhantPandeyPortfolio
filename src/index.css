@@ -41,7 +41,14 @@
   height: 1.8rem;
   padding: 0.4rem;
 }
-
+.aboutDark {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.aboutLight {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
 .navlink-active .iconDark,
 .navlink-active .iconLight {
   background-color: var(--highlight);
@@ -78,7 +85,7 @@
 @keyframes fadeout {
   to {
     opacity: 0;
-    scale: 1.2;
+    scale: 1.1;
   }
 }
 .loading {
@@ -121,9 +128,10 @@
     top: 0;
     cursor: pointer;
     z-index: 99;
+    flex-direction: column;
   }
   .scrollWindow ul {
-    flex-direction: row;
+    flex-direction: column;
     background-color: mediumspringgreen;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;

@@ -7,7 +7,7 @@ export default function HeroSection({ toggledarkmode, isdarkmode }) {
   return (
     <header>
       <NavSection toggledarkmode={toggledarkmode} isdarkmode={isdarkmode} />
-      <Hero isdarkmode={isdarkmode} />
+      <Hero />
     </header>
   );
 }
