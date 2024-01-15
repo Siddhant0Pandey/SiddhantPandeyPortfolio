@@ -138,4 +138,15 @@
     padding: 0.7rem;
     z-index: 99;
   }
+
+  .fade-out {
+    animation: fadeout linear;
+    animation-timeline: view();
+    animation-range: exit -200px;
+  }
+  @keyframes fadeout {
+    to {
+      scale: 1;
+    }
+  }
 }
