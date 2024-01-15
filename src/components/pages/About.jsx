@@ -13,7 +13,7 @@ function About() {
       className={`text-center md:pt-[16vh] pt-[6vh]  fade-out m-auto md:w-[85%] w-80% leading-[1.4]  font-Poppins   `}
     >
       <div>
-        <h1 className="md:text-[7rem] text-[7rem] absolute md:top-[3rem] top-[14rem] md:right-[7%]  right-[2%] font-Poppins font-extrabold opacity-25 tracking-widest ">
+        <h1 className="md:text-[7rem] text-[7rem] absolute md:top-[3rem] top-[14rem] md:right-[10vw]  right-[2%] font-Poppins font-extrabold opacity-25 tracking-widest ">
           About
         </h1>
         <div className="flex justify-evenly md:flex-row flex-col ">
