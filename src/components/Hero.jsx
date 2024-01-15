@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import About from "./pages/About";
-import Services from "./pages/Services";
-import Contact from "./pages/Contact";
 // import About from "./pages/About";
+// import Services from "./pages/Services";
+// import Contact from "./pages/Contact";
 
-function Hero({ isdarkmode }) {
+function Hero() {
   const professions = ["Web Developer", "Web Designer", "Frontend Developer"];
   const [currentProfessionIndex, setCurrentProfessionIndex] = useState(0);
 
@@ -36,14 +36,8 @@ function Hero({ isdarkmode }) {
           </h3>
         </div>
       </section>
-      <section className={isdarkmode ? "dark" : "light"}>
-        <About isdarkmode={isdarkmode} />
-      </section>
       <section>
-        <Services />
-      </section>
-      <section>
-        <Contact />
+        <About />
       </section>
     </>
   );

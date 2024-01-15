@@ -5,9 +5,11 @@ import NavSection from "./NavSection";
 
 export default function HeroSection({ toggledarkmode, isdarkmode }) {
   return (
-    <header>
-      <NavSection toggledarkmode={toggledarkmode} isdarkmode={isdarkmode} />
-      <Hero />
-    </header>
+    <>
+      <header>
+        <NavSection toggledarkmode={toggledarkmode} isdarkmode={isdarkmode} />
+        <Hero isdarkmode={isdarkmode} />
+      </header>
+    </>
   );
 }

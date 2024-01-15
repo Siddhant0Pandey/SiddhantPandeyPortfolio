@@ -13,6 +13,7 @@
 }
 :root {
   --primary-color: #131316;
+  /* --primary-color: #222; */
   --secondary-color: #f1faee;
   --highlight: #00dfa2;
 }
@@ -42,7 +43,7 @@
   padding: 0.4rem;
 }
 .aboutDark {
-  background-color: var(--primary-color);
+  background-color: yellow;
   color: var(--secondary-color);
 }
 .aboutLight {
@@ -84,7 +85,6 @@
 }
 @keyframes fadeout {
   to {
-    opacity: 0;
     scale: 1.1;
   }
 }
