@@ -98,6 +98,26 @@
     scale: 1;
   }
 }
+/* .scrollSkill {
+  animation: skillscroll 0.4s linear;
+  animation-timeline: scroll();
+  animation-range-start: 200px;
+  animation-range-end: 400px;
+}
+@keyframes skillscroll {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5rem);
+  }
+  75% {
+    transform: translateX(10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
 @media (max-width: 767px) {
   .iconDark {
     color: #131316;

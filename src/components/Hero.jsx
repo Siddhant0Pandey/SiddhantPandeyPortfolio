@@ -2,8 +2,8 @@
 import { useState, useEffect } from "react";
 import About from "./pages/About";
 // import About from "./pages/About";
-// import Services from "./pages/Services";
-// import Contact from "./pages/Contact";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 function Hero() {
   const professions = ["Web Developer", "Web Designer", "Frontend Developer"];
@@ -38,6 +38,12 @@ function Hero() {
       </section>
       <section>
         <About />
+      </section>
+      <section>
+        <Services />
+      </section>
+      <section>
+        <Contact />
       </section>
     </>
   );
