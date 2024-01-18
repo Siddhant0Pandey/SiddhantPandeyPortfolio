@@ -58,10 +58,7 @@ function About() {
                 </p>
               </div>
             </div>
-            {/* <button className="p-2 bg-highlights">Click me</button> */}
           </div>
-
-          {/* <AboutDetails /> */}
         </div>
         <section
           className={`text-center md:pt-[10vh] pt-5vh pb-[10vh] fade-out mr-auto ml-auto md:w-[85%] w-80% leading-[1.4]  font-Poppins   `}
