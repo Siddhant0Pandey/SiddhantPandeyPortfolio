@@ -27,7 +27,7 @@ function ErrorDM() {
       const timeoutId = setTimeout(() => {
         setShowMsg(false);
         setLoading(false);
-      }, 6000);
+      }, 8000);
 
       return () => clearTimeout(timeoutId);
     }
