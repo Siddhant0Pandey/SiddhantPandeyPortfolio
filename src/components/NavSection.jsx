@@ -34,10 +34,10 @@ function NavSection({ isdarkmode, toggledarkmode }) {
       <nav
         className={`${
           scrollWindow ? "scrollWindow" : ""
-        } flex justify-end  md:w-[90%] m-auto md:mr-5 mr-8 font-Roboto z-[99]`}
+        } flex justify-end  md:w-[90%] m-auto md:mr-5 mr-8 font-Roboto z-[99] `}
       >
         <ul className="flex justify-end  pt-5 items-center md:gap-6 gap-3 ">
-          <li className="w-12 h-12">
+          <li className="w-12 h-12 ">
             <NavLink
               to="/"
               className={location.pathname === "/" ? "navlink-active" : ""}

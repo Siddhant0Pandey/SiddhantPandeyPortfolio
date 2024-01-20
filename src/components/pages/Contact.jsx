@@ -75,6 +75,7 @@ function Contact() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+                required
                 className="mt-1 p-2 w-full border rounded-md"
               />
             </div>
@@ -91,6 +92,7 @@ function Contact() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                required
                 className="mt-1 p-2 w-full border rounded-md"
               />
             </div>
@@ -107,6 +109,7 @@ function Contact() {
                 rows="4"
                 value={formData.message}
                 onChange={handleChange}
+                required
                 className="mt-1 p-2 w-full border rounded-md"
               ></textarea>
             </div>
