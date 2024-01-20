@@ -29,7 +29,7 @@ function MyWorks() {
   ];
 
   return (
-    <div className="md:pt-[12vh] pt-[6vh] fade-out m-auto md:w-[85%] w-80% leading-[1.4] font-Poppins ">
+    <div className="md:pt-[12vh] pt-[6vh] fade-out m-auto md:w-[85%] w-80% leading-[1.4] font-Poppins md:pb-[6rem] pb-1">
       <h1 className="md:text-[4rem] mb-[3rem] text-[2rem] font-bold opacity-85">
         My Works
       </h1>
@@ -67,7 +67,7 @@ function MyWorks() {
               className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200 image-fade"
             />
           </div>
-          <div className="flex-1 flex flex-col justify-center gap-6 p-2">
+          <div className="flex-1 flex flex-col justify-center gap-6 p-2 text-fade">
             <h2 className="text-xl font-semibold mb-2">Project 2</h2>
             <p className="font-medium opacity-80">
               This project is known as project nothing where nothing has shown
@@ -85,7 +85,7 @@ function MyWorks() {
         </div>
         <hr className="opacity-80 w-[85%] m-auto  " />
         <div className="flex flex-col md:flex-row gap-6 h-[60vh] inView">
-          <div className="flex-1 flex flex-col justify-center gap-6 p-2">
+          <div className="flex-1 flex flex-col justify-center gap-6 p-2 text-fade">
             <h2 className="text-xl font-semibold mb-2">Project 3</h2>
             <p className="font-medium opacity-80">
               This project is known as project nothing where nothing has shown
