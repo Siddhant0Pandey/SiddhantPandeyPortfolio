@@ -35,7 +35,7 @@ function MyWorks() {
       </h1>
       <div className="flex flex-col gap-16">
         <div className="flex flex-col md:flex-row gap-6 h-[60vh] inView">
-          <div className="flex-1 flex flex-col justify-center gap-6 p-2">
+          <div className="flex-1 flex flex-col justify-center gap-6 p-2 text-fade">
             <h2 className="text-xl font-semibold mb-2">Project 1</h2>
             <p className=" font-medium opacity-80">
               A recreation of the Disney+ streaming service. The clone includes
@@ -54,7 +54,7 @@ function MyWorks() {
             <img
               src={projectsData[0].image}
               alt={projectsData.name}
-              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200"
+              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200 image-fade"
             />
           </div>
         </div>
@@ -64,7 +64,7 @@ function MyWorks() {
             <img
               src={projectsData[0].image}
               alt={projectsData.name}
-              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200"
+              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200 image-fade"
             />
           </div>
           <div className="flex-1 flex flex-col justify-center gap-6 p-2">
@@ -104,7 +104,7 @@ function MyWorks() {
             <img
               src={projectsData[0].image}
               alt={projectsData.name}
-              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200"
+              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200 image-fade"
             />
           </div>
         </div>
