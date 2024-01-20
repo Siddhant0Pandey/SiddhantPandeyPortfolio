@@ -12,7 +12,7 @@ function Services() {
       <h1 className="md:text-[4rem] text-[2rem] font-bold opacity-85">
         Skills and Services
       </h1>
-      <div className="flex md:justify-evenly mt-[4rem] md:flex-row  items-center  justify-center gap-7 md:gap-2 flex-col mb-[4rem]">
+      <div className="flex md:justify-evenly mt-[4rem] md:flex-row  items-center  justify-center gap-10 md:gap-2 flex-col mb-[4rem]">
         <div className="   shadow-lg md:w-[20rem] w-[18rem] flex flex-col items-center md:p-4 p-3 h-auto md:pb-6 pb-5 hover:shadow-sm">
           <MdOutlineLayers className="md:text-[6rem] text-[5rem] text-highlights" />
           <h3 className="uppercase mb-[2rem] mt-[1rem] font-bold underline underline-offset-4 ">
@@ -35,7 +35,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="mb-16 mt-8rem m-auto md:w-[85%] w-80%">
+      <div className="mb-16 mt-8rem m-auto md:w-[85%] w-80% pb-10">
         <MyWorks />
       </div>
     </section>

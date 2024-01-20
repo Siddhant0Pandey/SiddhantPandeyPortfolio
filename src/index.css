@@ -140,7 +140,7 @@
 }
 @keyframes slideIn {
   from {
-    right: -25rem;
+    right: -22rem;
   }
   to {
     right: 0;
@@ -172,6 +172,20 @@
   }
   to {
     width: 100%;
+  }
+}
+
+.inView {
+  animation-timeline: view();
+  animation-range: entry;
+  animation: inview linear;
+}
+@keyframes inview {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1.7;
   }
 }
 @media (max-width: 767px) {

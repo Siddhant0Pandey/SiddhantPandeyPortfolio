@@ -65,21 +65,6 @@ function NavSection({ isdarkmode, toggledarkmode }) {
           </li>
           <li className="w-12 h-12">
             <NavLink
-              to="contact"
-              className={
-                location.pathname === "/contact" ? "navlink-active" : ""
-              }
-            >
-              <div className=" navLinks flex flex-col justify-center items-center text-sm gap-[0.2rem]">
-                <IoMdCall
-                  className={` ${isdarkmode ? "iconDark" : "iconLight"}`}
-                />
-                <span className="navText">Contact</span>
-              </div>
-            </NavLink>
-          </li>
-          <li className="w-12 h-12">
-            <NavLink
               to="services"
               className={
                 location.pathname === "/services" ? "navlink-active" : ""
@@ -90,6 +75,21 @@ function NavSection({ isdarkmode, toggledarkmode }) {
                   className={` ${isdarkmode ? "iconDark" : "iconLight"}`}
                 />
                 <span className="navText">Services</span>
+              </div>
+            </NavLink>
+          </li>
+          <li className="w-12 h-12">
+            <NavLink
+              to="contact"
+              className={
+                location.pathname === "/contact" ? "navlink-active" : ""
+              }
+            >
+              <div className=" navLinks flex flex-col justify-center items-center text-sm gap-[0.2rem]">
+                <IoMdCall
+                  className={` ${isdarkmode ? "iconDark" : "iconLight"}`}
+                />
+                <span className="navText">Contact</span>
               </div>
             </NavLink>
           </li>
