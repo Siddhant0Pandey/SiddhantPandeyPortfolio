@@ -140,7 +140,7 @@
 }
 @keyframes slideIn {
   from {
-    right: -50rem;
+    right: -25rem;
   }
   to {
     right: 0;
@@ -152,7 +152,7 @@
     right: 0;
   }
   to {
-    right: -50rem;
+    right: -30rem;
   }
 }
 .loading-bar {

@@ -1,10 +1,10 @@
-import { useEffect, useState, useCallback, useRef } from "react";
+import { useEffect, useState, useCallback } from "react";
 
+// eslint-disable-next-line react/prop-types
 function ErrorDM() {
   const [showMsg, setShowMsg] = useState(false);
   const [loading, setLoading] = useState(false);
   const [hasScrollDown, setHasScrollDown] = useState(false);
-  const timeoutRef = useRef(null);
 
   const handleMessage = useCallback(() => {
     if (window.scrollY > 200 && !hasScrollDown) {
@@ -19,27 +19,25 @@ function ErrorDM() {
 
     return () => {
       window.removeEventListener("scroll", handleMessage);
-      clearTimeout(timeoutRef.current);
     };
   }, [handleMessage, hasScrollDown]);
 
   useEffect(() => {
     if (showMsg) {
-      timeoutRef.current = setTimeout(() => {
+      const timeoutId = setTimeout(() => {
         setShowMsg(false);
         setLoading(false);
-      }, 10000);
+      }, 8000);
+
+      return () => clearTimeout(timeoutId);
     }
-
-    return () => clearTimeout(timeoutRef.current);
   }, [showMsg]);
-
   return (
     <div>
       {showMsg && (
         <div className={`error-message ${showMsg ? "show" : ""}`}>
           <h1 className="md:p-4 p-2">
-            Darkmode is under maintenance in these sections.
+            Darkmode is under maintainance in these sections.
             {loading && <div className="loading-bar"></div>}
           </h1>
         </div>
