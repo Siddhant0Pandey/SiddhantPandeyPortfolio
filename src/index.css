@@ -203,13 +203,13 @@
   to {
     scale: 1;
     opacity: 0.4;
-    transform: translateY(-250px);
+    transform: translateY(-150px);
     filter: grayscale();
   }
 }
 .text-fade {
   animation: text-in linear;
-  animation-range: exit -200px;
+  animation-range: exit -100px;
   animation-timeline: view();
 }
 @keyframes text-in {
