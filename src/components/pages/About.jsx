@@ -7,6 +7,7 @@ import { FaReact, FaJs, FaHtml5, FaCss3, FaFigma } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 
 import profileImage from "../assets/profile.png";
+// import ErrorDM from "../ErrorDM";
 
 function About() {
   return (
@@ -63,6 +64,7 @@ function About() {
         <section
           className={`text-center md:pt-[10vh] pt-5vh pb-[10vh] fade-out mr-auto ml-auto md:w-[85%] w-80% leading-[1.4]  font-Poppins   `}
         >
+          {/* <ErrorDM /> */}
           <AboutDetails />
         </section>
       </section>

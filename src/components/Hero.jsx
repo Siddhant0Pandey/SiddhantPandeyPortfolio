@@ -35,6 +35,7 @@ function Hero() {
             {professions[currentProfessionIndex]}
           </h3>
         </div>
+        
       </section>
       <section>
         <About />
