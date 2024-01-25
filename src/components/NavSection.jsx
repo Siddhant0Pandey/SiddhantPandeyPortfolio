@@ -5,12 +5,14 @@ import { FaHome } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { MdContacts } from "react-icons/md";
+import { FaBars } from "react-icons/fa";
 
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 function NavSection({ isdarkmode, toggledarkmode }) {
   const [scrollWindow, setScrollWindow] = useState(false);
+  const [showNavLinks, setShowNavLinks] = useState(false);
 
   const handleScroll = () => {
     if (window.scrollY > 0) {
@@ -19,10 +21,21 @@ function NavSection({ isdarkmode, toggledarkmode }) {
       setScrollWindow(false);
     }
   };
+
+  const handleNavBar = () => {
+    setShowNavLinks(!showNavLinks);
+    console.log("clicked:");
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-  });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const location = useLocation();
+
   return (
     <>
       <button
@@ -31,13 +44,24 @@ function NavSection({ isdarkmode, toggledarkmode }) {
       >
         {isdarkmode ? <FaSun /> : <FaMoon />}
       </button>
+      <div className="fixed top-[1.3vh] right-[2vw] md:right-[50vw] w-12 h-12 p-2 z-[99] text-sm">
+        <FaBars
+          className={` ${isdarkmode ? "iconDark" : "iconLight"} barIcon`}
+          onClick={handleNavBar}
+        />
+      </div>
       <nav
         className={`${
           scrollWindow ? "scrollWindow" : ""
-        } flex justify-end  md:w-[90%] m-auto md:mr-5 mr-8 font-Roboto z-[99] `}
+        } flex justify-end  md:w-[90%] m-auto md:mr-5 mr-8 font-Roboto z-[99] 
+        ${showNavLinks ? "mobileNavBar" : ""}`}
       >
-        <ul className="flex justify-end  pt-5 items-center md:gap-6 gap-3 ">
-          <li className="w-12 h-12 ">
+        <ul
+          className={`flex justify-end  pt-5 items-center md:gap-6 gap-3 navlink  ${
+            showNavLinks ? "mobileNavBar" : ""
+          }`}
+        >
+          <li className="w-12 h-12 text-sm">
             <NavLink
               to="/"
               className={location.pathname === "/" ? "navlink-active" : ""}

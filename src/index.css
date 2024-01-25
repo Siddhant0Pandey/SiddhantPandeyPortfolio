@@ -207,6 +207,7 @@
     filter: grayscale();
   }
 }
+
 .text-fade {
   animation: text-in linear;
   animation-range: exit -100px;
@@ -223,6 +224,9 @@
     transform: translateY(150px);
     filter: grayscale();
   }
+}
+.barIcon {
+  display: none;
 }
 @media (max-width: 767px) {
   .iconDark {
@@ -241,6 +245,34 @@
     height: 1.5rem;
     padding: 0.3rem;
   }
+  .mobileNavBar {
+    display: flex;
+    animation: movedown 1s linear;
+    /* flex-direction: column; */
+    /* background-color: lightslategray; */
+  }
+  @keyframes movedown {
+    from {
+      transform: translateX(15rem);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .scrollWindow {
+    display: flex;
+  }
+  .mobileNavBar .navlink {
+    padding-right: 2.3rem;
+    display: flex;
+  }
+  .navlink {
+    display: none;
+  }
+  .barIcon {
+    display: block;
+  }
+
   .navLinks {
     font-size: 0.7rem;
   }
@@ -250,18 +282,18 @@
   }
   .scrollWindow {
     position: fixed;
-    right: -2vh;
-    top: 0;
+    right: -7vh;
+    top: 7vh;
     cursor: pointer;
     z-index: 99;
     flex-direction: column;
   }
   .scrollWindow ul {
     flex-direction: column;
-    background-color: mediumspringgreen;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    padding: 0.7rem;
+    /* background-color: mediumspringgreen; */
+    /* border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
+    /* padding: 0.7rem; */
     z-index: 99;
   }
 
