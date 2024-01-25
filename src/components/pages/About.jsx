@@ -36,17 +36,29 @@ function About() {
                 <span className="text-highlights">&quot;</span>
               </h4>
               <div className=" md:gap-16 gap-12 flex mt-5">
-                <a href="">
+                <a
+                  href="https://www.facebook.com/sandesh.pandey"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {" "}
-                  <FaFacebook className="md:w-10 md:h-10 w-8 h-8 opacity-[0.8] hover:opacity-[1]" />
+                  <FaFacebook className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100" />
                 </a>
-                <a href="">
+                <a
+                  href="https://www.facebook.com/sandesh.pandey"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {" "}
-                  <FaInstagram className="md:w-10 md:h-10 w-8 h-8 opacity-[0.8] hover:opacity-[1]" />
+                  <FaInstagram className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100" />
                 </a>
-                <a href="">
+                <a
+                  href="https://github.com/Siddhant0Pandey"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {" "}
-                  <FaGithub className="md:w-10 md:h-10 w-8 h-8 opacity-[0.8] hover:opacity-[1]" />
+                  <FaGithub className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100" />
                 </a>
               </div>
               <div className="flex flex-col gap-2 font-Kanit mt-7">

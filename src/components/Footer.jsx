@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
 function Footer({ isdarkmode }) {
@@ -16,15 +16,27 @@ function Footer({ isdarkmode }) {
         Contact Me:
       </h1>
       <div className=" md:gap-16 gap-12 flex">
-        <a href="">
+        <a
+          href="https://www.facebook.com/sandesh.pandey"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           <FaFacebook className="md:w-16 md:h-16 w-12 h-12 opacity-[0.8] hover:opacity-[1]" />
         </a>
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/s-pandey-a7895b273/"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
-          <FaInstagram className="md:w-16 md:h-16 w-12 h-12 opacity-[0.8] hover:opacity-[1]" />
+          <FaLinkedin className="md:w-16 md:h-16 w-12 h-12 opacity-[0.8] hover:opacity-[1]" />
         </a>
-        <a href="">
+        <a
+          href="https://github.com/Siddhant0Pandey"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           <FaGithub className="md:w-16 md:h-16 w-12 h-12 opacity-[0.8] hover:opacity-[1]" />
         </a>
