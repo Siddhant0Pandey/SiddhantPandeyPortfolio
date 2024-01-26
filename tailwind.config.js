@@ -8,7 +8,11 @@ export default {
       Roboto: ["Roboto"],
       Poppins: ["Poppins"],
     },
-
+    colors: {
+      highlight: "#00dfa2",
+      white: "#f1faee",
+      accent: "#edd719",
+    },
     extend: {},
   },
   plugins: [],

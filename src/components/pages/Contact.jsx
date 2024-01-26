@@ -57,7 +57,7 @@ function Contact() {
       className={`text-center md:pt-[12vh] pt-[6vh] fade-out m-auto md:w-[85%] w-80% leading-[1.4] font-Poppins pb-8`}
     >
       <div className="container mx-auto">
-        <div className="max-w-lg mx-auto p-8 rounded shadow-md">
+        <div className="max-w-lg mx-auto p-8 rounded shadow-sm shadow-highlight">
           <h2 className="text-2xl font-semibold mb-5 text-highlights">
             Contact Me
           </h2>

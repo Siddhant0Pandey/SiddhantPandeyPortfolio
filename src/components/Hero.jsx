@@ -31,11 +31,10 @@ function Hero() {
           <h5 className="text-[3rem] md:text-[5rem] tracking-[0.3rem] uppercase font-bold">
             Siddhant Pandey
           </h5>
-          <h3 className="tracking-[0.7rem] md:text-[1.2rem] text-[0.9rem] md:p-0 pt-8 text-highlights font-medium">
+          <h3 className="tracking-[0.7rem] md:text-[1.2rem] text-[0.9rem] md:p-0 pt-8 text-highlight font-medium">
             {professions[currentProfessionIndex]}
           </h3>
         </div>
-        
       </section>
       <section>
         <About />
