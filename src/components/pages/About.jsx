@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaReact, FaJs, FaHtml5, FaCss3, FaFigma } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 
-import profileImage from "../assets/profile.png";
+import profileImage from "../assets/Simant.jpg";
 // import ErrorDM from "../ErrorDM";
 
 function About() {
@@ -17,9 +17,9 @@ function About() {
         className={`text-center md:pt-[16vh] pt-[6vh]  fade-out mr-auto ml-auto md:w-[85%] w-80% leading-[1.4]  font-Poppins   `}
       >
         <div>
-          <h1 className="md:text-[7rem] text-[6rem] absolute md:top-[3rem] top-[14rem] md:right-[10vw]  right-[1.5%] font-Poppins font-extrabold opacity-25 tracking-widest ">
+          {/* <h1 className="md:text-[7rem] text-[6rem] absolute md:top-[3rem] top-[14rem] md:right-[10vw]  right-[1.5%] font-Poppins font-extrabold opacity-25 tracking-widest ">
             About
-          </h1>
+          </h1> */}
           <div className="flex justify-evenly md:flex-row flex-col">
             <div className=" p-8 object-contain">
               <img src={profileImage} alt="image" className="" />
