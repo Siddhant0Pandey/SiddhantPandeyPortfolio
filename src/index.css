@@ -43,6 +43,22 @@
   height: 1.8rem;
   padding: 0.4rem;
 }
+.resumeDark {
+  color: var(--primary-color);
+  background-color: var(--highlight);
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 0.4rem;
+}
+.resumeLight {
+  background-color: var(--highlight);
+  color: var(--secondary-color);
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 0.4rem;
+}
 /* .aboutDark {
   background-color: yellow;
   color: var(--secondary-color);
@@ -65,7 +81,19 @@
 .navLinks:hover > span {
   display: block;
 }
+.resumestyl > span {
+  display: none;
+  transition: all 1s ease-in;
+}
+.resumestyl:hover > span {
+  display: block;
+  color: var(--highlight);
+}
 
+/* SVG */
+
+/* 
+ */
 .scrollWindow {
   flex-direction: column;
   position: fixed;

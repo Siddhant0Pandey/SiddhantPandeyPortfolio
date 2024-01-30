@@ -6,6 +6,7 @@ import { IoMdCall } from "react-icons/io";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { MdContacts } from "react-icons/md";
 import { FaBars } from "react-icons/fa";
+import { FaFileDownload } from "react-icons/fa";
 
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -44,6 +45,21 @@ function NavSection({ isdarkmode, toggledarkmode }) {
       >
         {isdarkmode ? <FaSun /> : <FaMoon />}
       </button>
+
+      <div className="resumestyl fixed top-[10vh] left-[1.5vw] md:right-[50vw]  p-2 z-[99]  flex-col gap-[0.2rem] flex  justify-center items-center  w-12 h-12 ">
+        <a
+          href="siddhant-portfolio/src\components/assets/Siddhant Pandey CV.pdf"
+          download="Siddhant Resume"
+          target="_blank"
+          rel="noreferrer"
+          className={` ${
+            isdarkmode ? "resumeDark" : "resumeLight"
+          } flex  justify-center items-center `}
+        >
+          <FaFileDownload />
+        </a>
+        <span className="font-medium font-Poppins text-sm">Resume</span>
+      </div>
       <div className="fixed top-[1.3vh] right-[2vw] md:right-[50vw] w-12 h-12 p-2 z-[99] text-sm">
         <FaBars
           className={` ${isdarkmode ? "iconDark" : "iconLight"} barIcon`}
