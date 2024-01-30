@@ -75,7 +75,7 @@ function MyWorks() {
               includes the search feature to search the pokemons. up
             </p>
             <a
-              href="https://pokesearchlist.web.app/"
+              href="https://pokelist-search.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="text-highlights hover:underline underline-offset-4"
