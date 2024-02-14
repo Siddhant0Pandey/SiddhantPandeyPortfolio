@@ -4,6 +4,7 @@ import About from "./pages/About";
 // import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+// import { useOutletContext } from "react-router-dom";
 
 function Hero() {
   const professions = ["Web Developer", "Web Designer", "Frontend Developer"];
@@ -22,7 +23,7 @@ function Hero() {
   }, [currentProfessionIndex, professions.length]);
 
   return (
-    <>
+    <div>
       <section id="home">
         <div className="text-center pt-[26vh] md:pt-[30vh]  fade-out m-auto md:w-[90%] w-80% leading-[1.4] h-screen font-Kanit overflow-hidden">
           <h4 className="tracking-[0.8rem] text-[0.8rem] md:p-0 pb-5 md:text-[1.4rem] block ">
@@ -45,7 +46,7 @@ function Hero() {
       <section>
         <Contact />
       </section>
-    </>
+    </div>
   );
 }
 

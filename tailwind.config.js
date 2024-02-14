@@ -14,6 +14,12 @@ export default {
       accent: "#edd719",
     },
     extend: {
+      colors: {
+        highlight: "#00dfa2",
+        white: "#f1faee",
+        accent: "#edd719",
+        gray: "#adb5bd",
+      },
       keyframes: {
         wiggle: {
           "0%, 100%": { transform: "rotate(360deg)" },

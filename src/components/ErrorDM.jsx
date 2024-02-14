@@ -7,12 +7,12 @@ function ErrorDM() {
   const [hasScrollDown, setHasScrollDown] = useState(false);
 
   const handleMessage = useCallback(() => {
-    if (window.scrollY > 200 && !hasScrollDown) {
+    if (window.scrollY > 200) {
       setShowMsg(true);
       setLoading(true);
       setHasScrollDown(true);
     }
-  }, [hasScrollDown]);
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", handleMessage);

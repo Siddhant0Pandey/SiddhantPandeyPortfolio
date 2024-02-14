@@ -54,10 +54,13 @@ function Contact() {
 
   return (
     <section
-      className={`text-center md:pt-[12vh] pt-[6vh] fade-out m-auto md:w-[85%] w-80% leading-[1.4] font-Poppins pb-8`}
+      className={`text-center md:pt-[12vh] pt-[6vh] fade-out m-auto md:w-[85%] w-80% leading-[1.4] font-Poppins pb-8 h-full`}
     >
+      <h1 className="md:text-[4rem] mb-[3rem] text-[2rem] font-bold opacity-85">
+        Reach Me Out!
+      </h1>
       <div className="container mx-auto">
-        <div className="max-w-lg mx-auto p-8 rounded shadow-sm shadow-highlight">
+        <div className="max-w-lg mx-auto p-8 rounded shadow-sm shadow-gray">
           <h2 className="text-2xl font-semibold mb-5 text-highlights">
             Contact Me
           </h2>
