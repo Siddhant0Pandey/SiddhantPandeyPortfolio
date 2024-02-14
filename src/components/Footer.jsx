@@ -10,7 +10,7 @@ function Footer({ isdarkmode }) {
     <div
       className={` ${
         isdarkmode ? "dark" : "light"
-      } text-center flex flex-col items-center md:gap-12 gap-8 md:h-[70vh] h-[40vh] md:mt-12 mt-8 font-Poppins in-view`}
+      } text-center flex flex-col items-center md:gap-12 gap-8 md:h-[70vh] h-[40vh] md:mt-16 mt-9 font-Poppins in-view pt-5 md:pt-16`}
     >
       <h1 className="text-center md:text-[3rem] text-[1.8rem] font-bold md:tracking-[0.2rem] pt-6 pb-6">
         Contact Me:
