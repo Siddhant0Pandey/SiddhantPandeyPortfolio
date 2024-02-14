@@ -69,7 +69,7 @@ function NavSection({ isdarkmode, toggledarkmode }) {
       <nav
         className={`${
           scrollWindow ? "scrollWindow" : ""
-        } flex justify-end  md:w-[90%] m-auto md:mr-5 mr-8 font-Roboto z-[99] 
+        } flex justify-end  md:w-[90%] m-auto md:mr-5 mr-10 font-Roboto z-[99] 
         ${showNavLinks ? "mobileNavBar" : ""}`}
       >
         <ul

@@ -75,27 +75,27 @@ export default function AboutDetails() {
           Skills
         </h2>
         <div className="flex flex-wrap gap-6 justify-center md:justify-between overflow-hidden">
-          <div className="flex flex-col items-center hover:text-highlights gap-3 w-full md:w-auto">
+          <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
             <FaReact className="text-[4rem]" />
             <span className="text-[1.3rem]">React</span>
           </div>
-          <div className="flex flex-col items-center hover:text-highlights gap-3 w-full md:w-auto">
+          <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
             <FaJs className="text-[4rem]" />
             <span className="text-[1.3rem]">JavaScript</span>
           </div>
-          <div className="flex flex-col items-center hover:text-highlights gap-3 w-full md:w-auto">
+          <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
             <SiTailwindcss className="text-[4rem]" />
             <span className="text-[1.3rem]">TailwindCSS</span>
           </div>
-          <div className="flex flex-col items-center hover:text-highlights gap-3 w-full md:w-auto">
+          <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
             <FaCss3 className="text-[4rem]" />
             <span className="text-[1.3rem]">CSS</span>
           </div>
-          <div className="flex flex-col items-center hover:text-highlights gap-3 w-full md:w-auto">
+          <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
             <FaHtml5 className="text-[4rem]" />
             <span className="text-[1.3rem]">HTML</span>
           </div>
-          <div className="flex flex-col items-center hover:text-highlights gap-3 w-full md:w-auto">
+          <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
             <FaFigma className="text-[4rem]" />
             <span className="text-[1.3rem]">Figma</span>
           </div>

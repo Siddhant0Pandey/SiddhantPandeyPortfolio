@@ -52,21 +52,33 @@ function MyWorks() {
             </a>
           </div>
           <div className="flex-1 flex items-center object-contain">
-            <img
-              src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/M4dH9tdBE4BmfPWnS3RerbK8sOOqMA.jpg"
-              alt={projectsData.name}
-              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200 image-fade"
-            />
+            <a
+              href="https://martheomovies.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/M4dH9tdBE4BmfPWnS3RerbK8sOOqMA.jpg"
+                alt={projectsData.name}
+                className="w-full h-auto hover:shadow-md hover:shadow-gray scale-95 hover:scale-100 transition-all duration-200 image-fade"
+              />
+            </a>
           </div>
         </div>
         <hr className="opacity-80 w-[85%] m-auto  " />
         <div className="flex flex-col md:flex-row gap-6  h-[60vh] inView">
-          <div className="flex-1 flex items-center">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_V45GSbkYGv3u8OVHJVP8LMbtX3XdA2Kjnw&usqp=CAU"
-              alt={projectsData.name}
-              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200 image-fade"
-            />
+          <div className="flex-1 flex items-center justify-center object-contain">
+            <a
+              href="https://pokelist-search.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_V45GSbkYGv3u8OVHJVP8LMbtX3XdA2Kjnw&usqp=CAU"
+                alt={projectsData.name}
+                className="w-full h-auto  hover:shadow-md hover:shadow-gray scale-95 hover:scale-100 transition-all duration-200 image-fade"
+              />
+            </a>
           </div>
           <div className="flex-1 flex flex-col justify-center gap-6 p-2 text-fade">
             <h2 className="text-xl font-semibold mb-2">PokeSearch</h2>
@@ -101,12 +113,18 @@ function MyWorks() {
               View Details
             </a>
           </div>
-          <div className="flex-1 flex items-center">
-            <img
-              src={projectsData[0].image}
-              alt={projectsData.name}
-              className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200 image-fade"
-            />
+          <div className="flex-1 flex items-center justify-center object-contain">
+            <a
+              href="https://martheomovies.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={projectsData[0].image}
+                alt={projectsData.name}
+                className="w-full h-auto scale-95 hover:scale-100 transition-all duration-200 image-fade hover:shadow-md hover:shadow-gray"
+              />
+            </a>
           </div>
         </div>
       </div>

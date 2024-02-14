@@ -18,7 +18,7 @@ export default {
         highlight: "#00dfa2",
         white: "#f1faee",
         accent: "#edd719",
-        gray: "#adb5bd",
+        gray: "#222",
       },
       keyframes: {
         wiggle: {

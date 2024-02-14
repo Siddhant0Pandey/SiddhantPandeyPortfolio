@@ -41,7 +41,7 @@ function About() {
                   rel="noreferrer"
                 >
                   {" "}
-                  <FaFacebook className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100" />
+                  <FaFacebook className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100 hover:text-gray" />
                 </a>
                 <a
                   href="https://www.facebook.com/sandesh.pandey"
@@ -49,7 +49,7 @@ function About() {
                   rel="noreferrer"
                 >
                   {" "}
-                  <FaInstagram className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100" />
+                  <FaInstagram className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100 hover:text-gray " />
                 </a>
                 <a
                   href="https://github.com/Siddhant0Pandey"
@@ -57,17 +57,24 @@ function About() {
                   rel="noreferrer"
                 >
                   {" "}
-                  <FaGithub className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100" />
+                  <FaGithub className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100 hover:text-gray" />
                 </a>
               </div>
               <div className="flex flex-col gap-2 font-Kanit mt-7">
                 <h3 className="font-bold md:text-[1.5rem] text-[1.2rem] uppercase">
                   Email Me Here!
                 </h3>{" "}
-                <p className="text-highlights font-light hover:opacity-[0.8]">
-                  {" "}
-                  <a href="#">pandeysiddhant0922@gmail.com </a>
-                </p>
+                <a
+                  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-highlight"
+                >
+                  <p className="text-highlights font-light hover:opacity-[0.8] ">
+                    {" "}
+                    pandeysiddhant0922@gmail.com
+                  </p>
+                </a>
               </div>
             </div>
           </div>
