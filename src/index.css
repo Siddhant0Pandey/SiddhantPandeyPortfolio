@@ -110,7 +110,7 @@
 .fade-out {
   animation: fadeout linear;
   animation-timeline: view();
-  animation-range: exit -200px;
+  animation-range: exit -100px;
 }
 @keyframes fadeout {
   to {

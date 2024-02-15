@@ -35,7 +35,7 @@ function MyWorks() {
         My Works
       </h1>
       <div className="flex flex-col gap-16">
-        <div className="flex flex-col md:flex-row gap-6 h-[60vh] inView">
+        <div className="flex flex-col md:flex-row gap-6 h-[60vh] my-2 inView">
           <div className="flex-1 flex flex-col justify-center gap-6 p-2 text-fade">
             <h2 className="text-xl font-semibold mb-2">Martheo Movies</h2>{" "}
             <p className=" font-medium opacity-80">
@@ -51,7 +51,7 @@ function MyWorks() {
               View Details
             </a>
           </div>
-          <div className="flex-1 flex items-center object-contain">
+          <div className="flex-1 flex items-center object-contain  justify-center lg:p-16 p-[2.5rem] md:p-8">
             <a
               href="https://martheomovies.vercel.app/"
               target="_blank"
@@ -60,13 +60,13 @@ function MyWorks() {
               <img
                 src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/M4dH9tdBE4BmfPWnS3RerbK8sOOqMA.jpg"
                 alt={projectsData.name}
-                className="w-full h-auto hover:shadow-md hover:shadow-gray scale-95 hover:scale-100 transition-all duration-200 image-fade"
+                className="w-full h-auto hover:shadow-md hover:shadow-gray scale-95 hover:scale-100 transition-all duration-200  image-fade"
               />
             </a>
           </div>
         </div>
         <hr className="opacity-80 w-[85%] m-auto  " />
-        <div className="flex flex-col md:flex-row gap-6  h-[60vh] inView">
+        <div className="flex flex-col md:flex-row gap-6  h-[60vh] my-2 inView">
           <div className="flex-1 flex items-center justify-center object-contain">
             <a
               href="https://pokelist-search.vercel.app/"
@@ -97,7 +97,7 @@ function MyWorks() {
           </div>
         </div>
         <hr className="opacity-80 w-[85%] m-auto  " />
-        <div className="flex flex-col md:flex-row gap-6 h-[60vh] inView">
+        <div className="flex flex-col md:flex-row gap-6 h-[60vh] my-2 inView">
           <div className="flex-1 flex flex-col justify-center gap-6 p-2 text-fade">
             <h2 className="text-xl font-semibold mb-2">Project 3</h2>
             <p className="font-medium opacity-80">
