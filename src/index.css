@@ -253,9 +253,11 @@
 /* filter: grayscale();
   }
 } */
+
 .barIcon {
   display: none;
 }
+
 @media (max-width: 767px) {
   .iconDark {
     color: #131316;
@@ -340,5 +342,18 @@
   .error-message {
     padding: 0.5rem;
     font-size: medium;
+  }
+}
+@media (max-width: 376px) {
+  .scrollWindow {
+    right: -8.5vh;
+    top: 7vh;
+  }
+}
+@media (max-width: 290px) {
+  .scrollWindow {
+    right: -10vh;
+    top: 7vh;
+    font-size: small;
   }
 }
