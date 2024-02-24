@@ -36,7 +36,7 @@ function About() {
               </h4>
               <div className=" md:gap-16 gap-12 flex mt-5">
                 <a
-                  href="https://www.facebook.com/sandesh.pandey"
+                  href="https://www.facebook.com/sandesh.pandey.77398"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -44,7 +44,7 @@ function About() {
                   <FaFacebook className="md:w-10 md:h-10 w-8 h-8 opacity-80 hover:opacity-100 hover:text-gray" />
                 </a>
                 <a
-                  href="https://www.facebook.com/sandesh.pandey"
+                  href="https://www.facebook.com/sandesh.pandey.77398"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -65,7 +65,7 @@ function About() {
                   Email Me Here!
                 </h3>{" "}
                 <a
-                  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                  href="mailto: https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-highlight"

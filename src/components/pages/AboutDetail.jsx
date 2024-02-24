@@ -20,7 +20,7 @@ export default function AboutDetails() {
           Address : <span className="text-highlights">Kathmandu, Nepal</span>
         </h2>
         <h2>
-          Phone no : <span className="text-highlights">+977 9800000000</span>
+          Phone no : <span className="text-highlights">+977 9860801266</span>
         </h2>
       </div>
 

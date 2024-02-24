@@ -17,7 +17,7 @@ function Footer({ isdarkmode }) {
       </h1>
       <div className=" md:gap-16 gap-12 flex">
         <a
-          href="https://www.facebook.com/sandesh.pandey"
+          href="https://www.facebook.com/sandesh.pandey.77398"
           target="_blank"
           rel="noreferrer"
         >
@@ -25,7 +25,7 @@ function Footer({ isdarkmode }) {
           <FaFacebook className="md:w-16 md:h-16 w-12 h-12 opacity-[0.8] hover:opacity-[1]" />
         </a>
         <a
-          href="https://www.linkedin.com/in/s-pandey-a7895b273/"
+          href="https://www.linkedin.com/in/siddhant-pandey-a7895b273/"
           target="_blank"
           rel="noreferrer"
         >
