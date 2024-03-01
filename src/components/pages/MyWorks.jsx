@@ -96,7 +96,7 @@ function MyWorks() {
             </a>
           </div>
         </div>
-        <hr className="opacity-80 w-[85%] m-auto  " />
+        {/* <hr className="opacity-80 w-[85%] m-auto  " />
         <div className="flex flex-col md:flex-row gap-6 h-[60vh] my-2 inView">
           <div className="flex-1 flex flex-col justify-center gap-6 p-2 text-fade">
             <h2 className="text-xl font-semibold mb-2">Project 3</h2>
@@ -126,7 +126,7 @@ function MyWorks() {
               />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
