@@ -13,7 +13,7 @@ function About() {
     <div>
       <section
         id="about"
-        className={`text-center  fade-out mx-auto  md:w-[85%] w-80% leading-[1.4]  font-Poppins  `}
+        className={`text-center  fade-out mx-auto  md:w-[85%] w-80% leading-[1.4]  font-Poppins  inView`}
       >
         <div>
           {/* <h1 className="md:text-[7rem] text-[6rem] absolute md:top-[3rem] top-[14rem] md:right-[10vw]  right-[1.5%] font-Poppins font-extrabold opacity-25 tracking-widest ">
