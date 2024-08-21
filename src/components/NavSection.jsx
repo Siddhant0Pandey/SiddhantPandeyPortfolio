@@ -48,7 +48,7 @@ function NavSection({ isdarkmode, toggledarkmode }) {
 
       <div className="resumestyl fixed top-[10vh] left-[1.5vw] md:right-[50vw]  p-2 z-[99]  flex-col gap-[0.2rem] flex  justify-center items-center  w-12 h-12 ">
         <a
-          href="/src/components/resume.pdf"
+          href="./src/components/SiddhantResume.pdf"
           download="Siddhant_Resume.pdf"
           target="_blank"
           rel="noreferrer"

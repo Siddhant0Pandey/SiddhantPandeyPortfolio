@@ -1,4 +1,5 @@
-import { FaReact, FaJs, FaHtml5, FaCss3, FaFigma } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3, FaFigma } from "react-icons/fa";
+import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
 
 export default function AboutDetails() {
@@ -80,8 +81,12 @@ export default function AboutDetails() {
             <span className="text-[1.3rem]">React</span>
           </div>
           <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
-            <FaJs className="text-[4rem]" />
-            <span className="text-[1.3rem]">JavaScript</span>
+            <TbBrandNextjs className="text-[4rem]" />
+            <span className="text-[1.3rem]">NextJs</span>
+          </div>
+          <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
+            <TbBrandTypescript className="text-[4rem]" />
+            <span className="text-[1.3rem]">Typescript</span>
           </div>
           <div className="flex flex-col items-center hover:text-highlight gap-3 w-full md:w-auto">
             <SiTailwindcss className="text-[4rem]" />

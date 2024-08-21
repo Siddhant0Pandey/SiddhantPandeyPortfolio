@@ -28,8 +28,9 @@ function Services() {
             Frontend Development
           </h3>
           <div className="font-medium opacity-80 flex flex-col gap-3 text-[1rem]">
+            <h4>NextJS</h4>
             <h4>React</h4>
-            <h4>Javascript</h4>
+            <h4>Javascript/TypeScript</h4>
             <h4>TailwindCSS</h4>
             <h4>HTML</h4>
           </div>
